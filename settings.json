@@ -1,0 +1,20 @@
+{
+  "interface": "wlan0",
+  "scanIntervalSec": 300,
+  "autoRestore": true,
+  "gatewayIp": "192.168.3.1",
+  "gatewayMac": "b8:27:c5:92:77:4f",
+  "attackType": "kill",
+  "customCommand": "sudo arpspoof -i {INTERFACE} -t {VICTIM_IP} {GATEWAY_IP}",
+  "barIcon": "zap",
+  "barWidth": 28,
+  "barColorActive": "#ff5555",
+  "barColorInactive": "#000000",
+  "useSystemTheme": true,
+  "attackMode": "simple",
+  "barIconColorIdle": "#ffffff",
+  "barIconColorAttack": "#ff5555",
+  "showAttackCounter": true,
+  "panelTheme": "dark",
+  "attackIntervalMs": 200
+}

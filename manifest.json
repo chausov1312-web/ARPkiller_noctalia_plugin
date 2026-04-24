@@ -1,0 +1,33 @@
+{
+  "id": "arp-killer",
+  "name": "ARP Killer",
+  "version": "3.7.0",
+  "minNoctaliaVersion": "4.1.0",
+  "author": "Your Name",
+  "license": "MIT",
+  "description": "Advanced ARP spoofing with native Noctalia integration",
+  "tags": ["Network", "Security", "Bar", "Panel"],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml",
+    "settings": "Settings.qml"
+  },
+  "dependencies": {
+    "plugins": [],
+    "system": ["arp-scan", "dsniff", "arping"]
+  },
+  "metadata": {
+    "defaultSettings": {
+      "interface": "",
+      "scanIntervalSec": 30,
+      "autoRestore": true,
+      "gatewayIp": "",
+      "gatewayMac": "",
+      "attackType": "mitm",
+      "customCommand": "sudo arpspoof -i {INTERFACE} -t {VICTIM_IP} {GATEWAY_IP}",
+      "barIcon": "zap",
+      "barWidth": 40
+    }
+  }
+}
