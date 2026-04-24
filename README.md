@@ -142,5 +142,5 @@ sudo chmod 440 /etc/sudoers.d/arp-killer
 
 ## 🤝 Вклад
 
-Если вы нашли ошибку или хотите улучшить плагин – создавайте issue или pull request на [GitHub](https://github.com/your-repo/arp-killer).
+Если вы нашли ошибку или хотите улучшить плагин – создавайте issue или pull request на [GitHub](https://github.com/chausov1312-web/ARPkiller_noctalia_plugin).
 
